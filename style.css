@@ -131,6 +131,7 @@ a:hover {
   display:block;
   margin: 0 auto;
   color: #212121;
+  font-size: 6rem;
   padding-bottom: 60px;
 }
 .well {
@@ -458,4 +459,11 @@ footer {
   .view {
     font-size: 5.5vw;
   }
+}
+.education {
+    color: #212121;
+}
+#educationTitle {
+    color: #212121;
+    left: 400px;
 }
