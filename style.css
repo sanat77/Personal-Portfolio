@@ -32,11 +32,13 @@ a:hover {
 .banner {
   background:url("files/backgroundImg.jpg");
   background-size: cover;
-  height: 850px;
+  height: 670px;
+/*    margin-top: inherit;*/
 }
 #overlay {
   background: rgba(0, 0, 0, 0.76);
   height: 1000px;
+/*    font-family: fantasy*/
 }
 .skills {
   background:url("https://webdevtrick.com/wp-content/uploads/coding.jpg");
@@ -70,7 +72,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  top: 250px;
+  top: 130px;
 }
 .titles {
   width: 790px;
@@ -97,9 +99,12 @@ a:hover {
 #projectTitle {
   text-align: center;
   color: #212121;
+  font-family: fantasy;
 }
 #projectBody {
     color: #212121;
+    font-family: serif ;
+    font: "Times New Roman";
 }
 .skill {
   background-color: white;
@@ -111,6 +116,7 @@ a:hover {
   border-radius: 15px;
   position: relative;
   display: inline-block;
+    font-family: sans-serif;
 }
 .small-intro {
   background: #e8eaed;
@@ -123,6 +129,7 @@ a:hover {
   display:block;
   margin: 0 auto;
   color: #212121;
+    font-family: sans-serif;
   padding-bottom: 60px;
 }
 #small-introHeading {
@@ -132,7 +139,7 @@ a:hover {
   margin: 0 auto;
   color: #212121;
   font-size: 6rem;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .well {
   min-height: 300px;
@@ -274,11 +281,17 @@ footer {
   font-size: 38px;
 }
 #jobPos {
-  font-size: 25px;
+  font-size: 15px;
+    font-family: sans-serif;
 }
 #jobDesc {
   font-size: 20px;
   width: 50%;
+    font-family: serif;
+}
+#jobWork {
+    font-family: serif;
+    font-size: 30px;
 }
 #liveDemo {
   text-align: center;
@@ -408,6 +421,7 @@ footer {
     width: 80%;
     font-size: 5vw;
     padding-bottom: 40px;
+/*      padding-top: 40px;*/
   }
   #borderText {
     font-size: 5.5vw;
@@ -462,15 +476,29 @@ footer {
 }
 .education {
     color: #212121;
+    background: #ededed;
+    padding-top: 60px;
 }
 #educationTitle {
     color: #212121;
     left: 400px;
 }
 .profile-pic {
-    border-radius: 1000%;
+    border-radius: 100%;
     height: 200px;
     width: 200px;
 /*    border-left: 200px;*/
     margin-left: 570px;
+/*    padding-bottom: 400px;*/
+}
+.project {
+    font: Arial, sans-serif;
+}
+.insideEducation {
+    color: #5c5c5c;
+    font-family: serif;
+}
+.insideEducation-2 {
+    color: #948a8a;
+    font-family: sans-serif;
 }
