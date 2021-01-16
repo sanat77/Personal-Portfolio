@@ -123,9 +123,9 @@ a:hover {
   padding-top: 60px;
 }
 #small-intro {
-  text-align: center;
+  text-align: justify;
   width: 50%;
-  font-size: 2rem;
+  font-size: 1.4rem;
   display:block;
   margin: 0 auto;
   color: #212121;
@@ -139,7 +139,7 @@ a:hover {
   margin: 0 auto;
   color: #212121;
   font-size: 6rem;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .well {
   min-height: 300px;
