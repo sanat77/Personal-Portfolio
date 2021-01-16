@@ -130,7 +130,7 @@ a:hover {
   margin: 0 auto;
   color: #212121;
     font-family: sans-serif;
-    padding-top: 43px;
+/*    padding-top: 43px;*/
   padding-bottom: 60px;
 }
 #small-introHeading {
@@ -140,7 +140,7 @@ a:hover {
   margin: 0 auto;
   color: #212121;
   font-size: 6rem;
-  padding-bottom: 35px;
+/*  padding-bottom: 35px;*/
 }
 .well {
   min-height: 300px;
@@ -486,8 +486,8 @@ footer {
 }
 .profile-pic {
     border-radius: 100%;
-    height: 200px;
-    width: 200px;
+    height: 266px;
+    width: 190px;
 /*    border-left: 200px;*/
     margin-left: 570px;
 /*    padding-bottom: 400px;*/
@@ -505,4 +505,8 @@ footer {
 }
 #stock_market {
     color: cornflowerblue;
+}
+#profile-pic {
+    padding-top: 35px;
+    padding-bottom: 43px;
 }
