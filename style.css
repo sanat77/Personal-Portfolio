@@ -103,8 +103,10 @@ a:hover {
 }
 #projectBody {
     color: #212121;
-    font-family: serif ;
-    font: "Times New Roman";
+    font-family: sans-serif ;
+    display:block;
+/*    font: "Times New Roman";*/
+    font-size: 0.95em;
 }
 .skill {
   background-color: white;
@@ -123,7 +125,7 @@ a:hover {
   padding-top: 60px;
 }
 #small-intro {
-  text-align: justify;
+  text-align: inherit;
   width: 50%;
   font-size: 1.4rem;
   display:block;
