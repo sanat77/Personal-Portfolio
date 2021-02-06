@@ -99,7 +99,7 @@ a:hover {
 #projectTitle {
   text-align: center;
   color: #212121;
-  font-family: fantasy;
+  font: Times New;
 }
 #projectBody {
     color: #212121;
