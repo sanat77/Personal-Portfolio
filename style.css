@@ -176,11 +176,12 @@ a:hover {
   color:#ff2a4a;
 }
 footer {
-  background-color: #ff2a4a;
+  background-color: #575757;
+  font: "Times New Roman";
   color: white;
   line-height: 20px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 19px;
+  padding-bottom: 8px;
   width: 100%;
   bottom: 0;
   position: relative;
@@ -491,7 +492,7 @@ footer {
     height: 266px;
     width: 190px;
 /*    border-left: 200px;*/
-    margin-left: 570px;
+    margin-left: 610px;
 /*    padding-bottom: 400px;*/
 }
 .project {
@@ -506,9 +507,12 @@ footer {
     font-family: sans-serif;
 }
 #stock_market {
-    color: cornflowerblue;
+    color: #53a8ed;
 }
 #profile-pic {
     padding-top: 35px;
     padding-bottom: 43px;
+}
+#ProjectHeading {
+  color: #363738;
 }
