@@ -31,13 +31,15 @@ a:hover {
 }
 .banner {
   background:url("files/backgroundImg.jpg");
-  background-size: cover;
+  padding-top: 0px;
+/*  background-size: cover;*/
   height: 777px;
 /*    margin-top: inherit;*/
 }
 #overlay {
   background: rgba(0, 0, 0, 0.76);
   height: 1000px;
+  padding-top: 1px;
 /*    font-family: fantasy*/
 }
 .skills {
@@ -72,7 +74,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  top: 150px;
+  top: 125px;
 }
 .titles {
   width: 790px;
